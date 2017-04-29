@@ -24,6 +24,8 @@ public class Comments {
     private int comment_id;
 
     private String content;
+    
+    private String x;
 
     @OneToOne
     @JoinColumn(name = "post_id")
